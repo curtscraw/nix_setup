@@ -1,0 +1,3 @@
+alias git-yolo='git commit -am "`curl -s http://whatthecommit.com/index.txt`"'
+
+alias AVR_INCL='/opt/local/avr/include/'

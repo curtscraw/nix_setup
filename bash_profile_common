@@ -1,0 +1,13 @@
+#ls colorful
+export CLICOLOR=1
+
+#git color highlighting
+export GREP_OPTIONS='--color=auto'
+
+#PS1 setting
+export PS1="[\u@\h] \[$(tput setaf 1)\]\w\[$(tput setaf 7)\]\[$(tput sgr0)\] \$ "
+
+# Set up Alias file for wine installed programs
+if [ -f ~/.bash_aliases ]; then
+	. ~/.bash_aliases
+fi
