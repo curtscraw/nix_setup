@@ -1,1 +1,1 @@
-#Settings I like for bash and VIM
+# Tweaks for vim and bash
