@@ -1,0 +1,17 @@
+[user]
+	name = Curtis Crawford
+	email = curtiscraw@gmail.com
+[credential]
+   helper = osxkeychain
+[alias]
+   lol = log --graph --decorate --pretty=oneline --abbrev-commit
+   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+   lolag = log --graph --decorate --pretty=oneline --abbrev-commit --all
+   st = status
+[color]
+   diff = auto
+   status = auto
+   branch = auto
+   interactive = auto
+[core]
+	editor = vim
