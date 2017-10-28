@@ -10,4 +10,4 @@ ln -s ${DIR}/vim .vim
 ln -s ${DIR}/vimrc .vimrc
 
 touch .inputrc
-echo ${DIR}/inputrc >> .inputrc
+cat ${DIR}/inputrc >> .inputrc
